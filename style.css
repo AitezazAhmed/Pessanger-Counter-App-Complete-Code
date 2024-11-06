@@ -1,0 +1,66 @@
+#increment {
+    background-color: rgb(94, 255, 94);
+    font-size: xx-large;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+
+}
+#welcome-el{
+    margin-left: 3vw;
+    font-size:20px;
+      width: 18vw;}
+#save{
+    background-color: rgb(255, 174, 0);
+    font-size: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+
+}
+#save-el{
+    display: flex;
+    align-items: center;
+    width: 16vw;
+    height: 5vh;
+    color: rgb(0, 0, 0);
+    margin-top: 5px;
+
+}
+#decrement{
+    background-color: rgb(255, 0, 0);
+    font-size: 30px;
+    border-radius: 20px;
+    margin-top: 5px;
+
+}
+span {
+    font-size: xx-large;
+    margin-top: 5px;
+}
+
+h2 {
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+    margin-top: 5px;
+}
+
+.background{
+    background-image: url(https://img.freepik.com/free-photo/close-up-table-surface-front-blur-shopping-mall_23-2147907223.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: max(1557px, 100vw);
+    height: 100vh;}
+   
+*{
+    margin: 0%;
+    padding: 0%;
+}
+    .container {
+        display: flex; /* or use grid */
+        justify-content: center;
+        align-items: center;
+       
+      }
